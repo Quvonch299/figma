@@ -1,0 +1,27 @@
+ .container {
+     max-width: 1320px;
+     margin: auto;
+ }
+
+ header {
+     background: url(./imgs/header/header_backgroun_img.png) center/cover no-repeat;
+     height: 100vh;
+     /* display: none; */
+ }
+
+ header img {
+     width: 100%;
+
+ }
+
+ .lichni {
+     display: none;
+ }
+
+ .input {
+     border-bottom: 2px solid black;
+ }
+
+ .error {
+     border-bottom: 2px solid red;
+ }
