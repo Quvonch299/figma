@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header class="header bg-[#2C2926] text-white relative">
+        <nav class="navbar pt-[25px]">
+            <div class="container">
+                <div class="item flex justify-between items-center border border-white p-4 rounded-[8px] bg-none">
+                    <div class="logo">
+                        <img src="./imgs/foote logo.png" alt="" class="w-[120px] max-sm:w-[90px]">
+                    </div>
+
+                    <button id="menu-btn"
+                        class="hidden max-sm:block text-white text-[28px] focus:outline-none border border-white rounded-[6px] px-2 py-1">
+                        ☰
+                    </button>
+
+                    <div id="menu"
+                        class="list flex gap-[50px] items-center max-sm:hidden max-sm:flex-col max-sm:absolute max-sm:top-[100%] max-sm:left-0 max-sm:w-full max-sm:bg-[#2C2926] max-sm:border-t max-sm:border-white/30 max-sm:p-5 max-sm:gap-[20px] max-sm:z-50">
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index.htm">Главная</a>
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index.html">Проекты</a>
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index3.html">Архитекторы</a>
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index4.html">Рабочие процессы</a>
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index5.html">Пресса о нас</a>
+                        <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                            href="./index6.html">Контакты</a>
+                    </div>
+
+                    <div class="btn max-sm:hidden">
+                        <button
+                            class="border p-2 rounded-[5px] border-white text-white hover:bg-white hover:text-black duration-300">
+                            Личный кабинет
+                        </button>
+                    </div>
+                </div>
+
+                <div id="mobile-btn" class="hidden max-sm:flex justify-center mt-3">
+                    <button
+                        class="border p-2 rounded-[5px] border-white text-white hover:bg-white hover:text-black duration-300">
+                        Личный кабинет
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="mian">
+        <!-- === MAIN SECTIONS (Responsive with TailwindCSS) === -->
+
+        <!-- Hero Section -->
+        <section class="sec_1 bg-[#1E1E1E] text-white px-4 sm:px-8 md:px-16">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-10 pt-20 md:pt-32">
+                    <div class="left text-center md:text-left">
+                        <h2 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
+                            Создание гармонии <br class="hidden sm:block" />
+                            с помощью дизайна
+                        </h2>
+                    </div>
+                    <div class="right grid gap-5 max-w-md text-center md:text-left">
+                        <p class="text-base sm:text-lg">
+                            Дизайн интерьера — это искусство и наука об улучшении внутреннего
+                            пространства для достижения большей функциональности.
+                        </p>
+                        <button
+                            class="bg-white text-black font-semibold px-6 py-3 rounded-lg w-full sm:w-[224px] hover:bg-white/90 transition">
+                            Обратная связь
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Image -->
+        <section class="sec_2 mt-10 sm:mt-14">
+            <div class="container mx-auto px-4 sm:px-8">
+                <img src="./imgs/section.img/hero_img.png" alt="" class="w-full h-auto rounded-lg object-cover" />
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="sec_3 mt-20 sm:mt-28 px-4 sm:px-8 md:px-16">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+                <div class="left">
+                    <img src="./imgs/section.img/bed1.png" alt="" class="w-full h-auto rounded-lg" />
+                </div>
+                <div class="right text-white space-y-5">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold">
+                        Акцент на ощущения и атмосферу
+                    </h2>
+                    <p class="text-white/70 leading-relaxed text-sm sm:text-base">
+                        Роскошный интерьер – это не просто набор дорогих вещей. Это тщательно
+                        продуманное пространство, которое вызывает восхищение, дарит ощущение
+                        уюта и становится отражением вашей индивидуальности...
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="sec_4 mt-20 sm:mt-28 px-4 sm:px-8 md:px-16">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+                <div class="left order-2 md:order-1">
+                    <img src="./imgs/section.img/bed2.png" alt="" class="w-full h-auto rounded-lg" />
+                </div>
+                <div class="right order-1 md:order-2 text-white space-y-5">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold">
+                        Акцент на процесс и результат
+                    </h2>
+                    <p class="text-white/70 leading-relaxed text-sm sm:text-base">
+                        Наш подход к созданию роскошных интерьеров основан на глубоком
+                        понимании ваших потребностей и желаний...
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="sec_5 mt-20 sm:mt-28 px-4 sm:px-8 md:px-16">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+                <div class="left">
+                    <img src="./imgs/section.img/bed3.png" alt="" class="w-full h-auto rounded-lg" />
+                </div>
+                <div class="right text-white space-y-6">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-semibold">
+                        Искусство жить красиво
+                    </h2>
+                    <p class="text-white/70 leading-relaxed text-sm sm:text-base">
+                        Создание роскошного интерьера – это возможность воплотить в жизнь ваше
+                        представление об идеальном доме...
+                    </p>
+                    <button
+                        class="border p-3 rounded-md border-white bg-white text-black font-semibold w-full sm:w-[244px] hover:bg-white/90 transition">
+                        Личный кабинет
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Boxes -->
+        <section class="sec_6 mt-20 sm:mt-28 bg-[#564F40] py-10 flex justify-center items-center px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-10 text-white text-center">
+                <div class="item flex flex-col items-center gap-3">
+                    <img src="./imgs/section.img/kubok.png" alt="" class="w-14 h-14" />
+                    <h2 class="text-xl font-semibold">Полный цикл работ</h2>
+                    <p class="text-white/60 text-sm">
+                        От эскиза до готового интерьера — под ключ
+                    </p>
+                </div>
+                <div class="item flex flex-col items-center gap-3">
+                    <img src="./imgs/section.img/galichka.png" alt="" class="w-14 h-14" />
+                    <h2 class="text-xl font-semibold">3D-визуализация</h2>
+                    <p class="text-white/60 text-sm">
+                        Увидите свой будущий интерьер до начала ремонта
+                    </p>
+                </div>
+                <div class="item flex flex-col items-center gap-3">
+                    <img src="./imgs/section.img/operator.png" alt="" class="w-14 h-14" />
+                    <h2 class="text-xl font-semibold">Индивидуальный подход</h2>
+                    <p class="text-white/60 text-sm">
+                        Интерьер, который отражает именно ваш характер
+                    </p>
+                </div>
+                <div class="item flex flex-col items-center gap-3">
+                    <img src="./imgs/section.img/shipping.png" alt="" class="w-14 h-14" />
+                    <h2 class="text-xl font-semibold">Контроль качества</h2>
+                    <p class="text-white/60 text-sm">
+                        Гарантия, что проект будет реализован точно по плану
+                    </p>
+                    </d </main>
+                    <footer class="footer bg-[#2C2926] border-t-2 border-white/20  pt-9 pb-10 ">
+                        <div class="container">
+                            <div class="f_contant ">
+                                <div class="itemas text-white grid grid-cols-3 pb-[54px]">
+                                    <div class="1 ">
+
+                                        <img src="./imgs/foote logo.png" alt="">
+                                        <p class="text-white/55 pt-10">Проектирование интерьеров,<br>
+                                            которые оставляют неизгладимое<br> впечатление</p>
+                                    </div>
+                                    <div class="2 grid grid-cols-2 gsp-[74px]">
+                                        <div class="flex gap-[34px] flex-col">
+                                            <h2 class="text-[22px] font-bold">Навигация</h2>
+                                            <a href="#">Главная</a>
+                                            <a href="#">Проекты</a>
+                                            <a href="#">Архитекторы</a>
+                                            <a href="#">Рабочие процессы</a>
+                                            <a href="#">Пресса о нас</a>
+                                            <a href="#">Контакты</a>
+                                        </div>
+                                        <div class="flex flex-col gap-[34px]">
+                                            <h2 class="text-[22px] font-bold">Помощь</h2>
+                                            <a href="">Способы оплаты</a>
+                                            <a href="">Политика конфиденциальности </a>
+                                        </div>
+                                    </div>
+                                    <div class="3 flex flex-col gap-[36px]">
+                                        <div>
+                                            <h2 class="text-[29px] text-white/50">Рассылка</h2>
+                                        </div>
+                                        <form>
+
+                                            <input class="outline-none border-b" type="email" placeholder="Ваш email"
+                                                name="" id="">
+                                            <button class="bg-white text-black p-3 rounded-[14px]">Подписаться
+                                                ></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="text-white flex justify-between border-t pt-[34px]">
+                                    <h2>© 2025 Все права защищены. Engler House</h2>
+                                    <h2>Правила и условия | Политика конфиденциальности</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+                    <script src="./app.js"></script>
+
+
+
+
+</body>
+
+</html>

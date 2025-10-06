@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="">
+
+        <header class="header bg-transparent relative z-50">
+            <nav class="navbar pt-4 md:pt-[25px]">
+                <div class="container mx-auto px-4">
+                    <div
+                        class="item flex justify-between items-center border border-white/30 p-3 md:p-4 rounded-[8px] backdrop-blur-sm bg-white/5">
+
+                        <div class="logo flex-shrink-0">
+                            <img src="./imgs/foote logo.png" alt="logo" class="w-[120px] md:w-[160px]">
+                        </div>
+
+                        <button id="menu-btn"
+                            class="md:hidden flex flex-col justify-center items-center w-10 h-10 border border-white/40 rounded-lg">
+                            <span class="w-6 h-[2px] bg-white mb-[5px]"></span>
+                            <span class="w-6 h-[2px] bg-white mb-[5px]"></span>
+                            <span class="w-6 h-[2px] bg-white"></span>
+                        </button>
+
+                        <div id="menu"
+                            class="list hidden md:flex flex-col md:flex-row md:gap-[50px] gap-4 absolute md:static top-full left-0 w-full md:w-auto bg-[#2C2926] md:bg-transparent border-t md:border-0 border-white/20 p-6 md:p-0 md:mt-0 mt-3">
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index.html">Главная</a>
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index.html">Проекты</a>
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index3.html">Архитекторы</a>
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index4.html">Рабочие процессы</a>
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index5.html">Пресса о нас</a>
+                            <a class="text-white hover:font-bold hover:text-white/60 duration-300"
+                                href="./index6.html">Контакты</a>
+
+                            <button
+                                class="md:hidden mt-4 border border-white text-white py-2 rounded-[5px] w-full">Личный
+                                кабинет</button>
+                        </div>
+
+                        <div class="btn hidden md:block">
+                            <button
+                                class="border p-2 rounded-[5px] border-white text-white hover:bg-white hover:text-black duration-300">
+                                Личный кабинет
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      menu.classList.toggle('flex');
+    });
+  </script> -->
+        </header>
+
+        <main class="main">
+            <section class="sec_1 pt-[124px]">
+                <div class="container">
+                    <div class="sec_contant1 flex justify-between justify-center items-center gap-9">
+
+                        <div class="left">
+                            <h2 class="text-[64px] text-white font-bold">Создание гармонии
+                                с помощью дизайна
+                            </h2>
+                        </div>
+                        <div class="right grid gap-[34px]">
+                            <p class="text-[20px] text-white">Дизайн интерьера - это искусство и наука
+                                об улучшении внутреннего пространства для достижения большей функциональности.
+                            </p>
+                            <button class="bg-white p-3 rounded-[9px] w-[224px]">Обратная связь </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="sec_2 mt-[54px]">
+                <div class="container">
+                    <div class="sec_contant2">
+                        <img src="./imgs/glavni.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="sec_3 mt-[124px]">
+                <div class="container">
+                    <div class="sec_contant3 grid grid-cols-3 gap-[34px]">
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="max-w-sm rounded-lg overflow-hidden  ">
+                            <div class="relative">
+                                <img src="./imgs/section.img/sec_img.png" alt="Interior"
+                                    class="w-full  object-cover rounded-t-lg">
+
+                                <div class="absolute bottom-4 left-4 right-4 bg-white rounded-lg shadow-md p-5">
+                                    <h2 class="text-xl font-bold text-gray-900">Проект</h2>
+                                    <p class="text-gray-600 mt-2">
+                                        Процесс начинается с создания вдохновенного интерьера
+                                    </p>
+                                    <div class="mt-4 flex justify-end">
+                                        <a href="#"
+                                            class="inline-flex items-center justify-center w-9 h-9 rounded-md bg-gray-700 text-white hover:bg-gray-800">
+                                            →
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec_3 mt-[124px] bg-[#564F40] h-[274px] flex justify-center items-center">
+                <div class="sec_contan3 grid grid-cols-4 gap-[30px]">
+                    <div class="item text-white flex flex-col justify-center items-center text-center">
+                        <img src="./imgs/section.img/kubok.png" alt="">
+                        <h2 class="text-[30px]">Полный цикл работ</h2>
+                        <p class="text-[16px] text-white/40">От эскиза до готового интерьера<br>
+                            — под ключ</p>
+                    </div>
+                    <div class="item text-white flex flex-col justify-center items-center text-center">
+                        <img src="./imgs/section.img/galichka.png" alt="">
+                        <h2 class="text-[30px]">3D-визуализация</h2>
+                        <p class="text-[16px] text-white/40">Увидите свой будущий интерьер <br> еще до начала ремонта
+                        </p>
+                    </div>
+                    <div class="item text-white flex flex-col justify-center items-center text-center">
+                        <img src="./imgs/section.img/operator.png" alt="">
+                        <h2 class="text-[30px]">Индивидуальный
+                            подход</h2>
+                        <p class="text-[16px] text-white/40">Интерьер, который отражает<br> именно ваш характер</p>
+                    </div>
+                    <div class="item text-white flex flex-col justify-center items-center text-center">
+                        <img src="./imgs/section.img/shipping.png" alt="">
+                        <h2 class="text-[30px]">Контроль качества</h2>
+                        <p class="text-[16px] text-white/40">Гарантия, что проект будет<br> реализован точно по плану
+                        </p>
+                    </div>
+                </div>
+
+    </div>
+    </section>
+
+    </main>
+    <footer class="footer bg-[#2C2926] border-t-2 border-white/20  pt-9 pb-10 ">
+        <div class="container">
+            <div class="f_contant ">
+                <div class="itemas text-white grid grid-cols-3 pb-[54px]">
+                    <div class="1 ">
+
+                        <img src="./imgs/foote logo.png" alt="">
+                        <p class="text-white/55 pt-10">Проектирование интерьеров,<br>
+                            которые оставляют неизгладимое<br> впечатление</p>
+                    </div>
+                    <div class="2 grid grid-cols-2 gsp-[74px]">
+                        <div class="flex gap-[34px] flex-col">
+                            <h2 class="text-[22px] font-bold">Навигация</h2>
+                            <a href="#">Главная</a>
+                            <a href="#">Проекты</a>
+                            <a href="#">Архитекторы</a>
+                            <a href="#">Рабочие процессы</a>
+                            <a href="#">Пресса о нас</a>
+                            <a href="#">Контакты</a>
+                        </div>
+                        <div class="flex flex-col gap-[34px]">
+                            <h2 class="text-[22px] font-bold">Помощь</h2>
+                            <a href="">Способы оплаты</a>
+                            <a href="">Политика конфиденциальности </a>
+                        </div>
+                    </div>
+                    <div class="3 flex flex-col gap-[36px]">
+                        <div>
+                            <h2 class="text-[29px] text-white/50">Рассылка</h2>
+                        </div>
+                        <form>
+
+                            <input class="outline-none border-b" type="email" placeholder="Ваш email" name="" id="">
+                            <button class="bg-white text-black p-3 rounded-[14px]">Подписаться ></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-white flex justify-between border-t pt-[34px]">
+                    <h2>© 2025 Все права защищены. Engler House</h2>
+                    <h2>Правила и условия | Политика конфиденциальности</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    </div>
+</body>
+
+</html>
